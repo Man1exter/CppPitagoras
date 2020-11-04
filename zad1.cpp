@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <stdio.h>
 
 using namespace std;
 
@@ -19,15 +20,15 @@ int main(){
      cout << "Podaj bok c: "<<endl;
     cin>> c;
 
-    pitagoras = a*2 + b*2 + c*2;
 
-    if(pitagoras < 0){
+    if((a*a) + (b*b) == (c*c)){
 
-    cout<<"Podane wartości nie mogą być mniejsze od 0"<<endl;
+    cout<<"trójkąt jest prostokątny"<<endl;
+    // 6 8 10 będzie :)
     
     } else {
 
-    cout<<"wynik: "<<pitagoras<<endl;
+    cout<<"wartości nie mogą być mniejsze od 0"<<pitagoras<<endl;
 
     }
 
