@@ -28,6 +28,7 @@ if (delta == 0){
 }
 if (delta > 0){
     cout<<"Liczba pierwiastków równa się   2"<<endl;
+    // 2 10 8 a b c
 }
 
 
@@ -45,9 +46,10 @@ break;
     case 2:
    x1 = (-b-sqrt(delta))/(2*a); 
    x2 = (-b+sqrt(delta))/(2*a);
-   cout<<"x1 równa się"<<x1,x2<<endl;
+   
+   cout<<"x1 równa się"<<x1<<endl;
+   cout<<"x2 równa się"<<x2<<endl;
 break;
-
 
 }
 
