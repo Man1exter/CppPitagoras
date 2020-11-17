@@ -24,7 +24,7 @@ int main(){
     if((a*a) + (b*b) == (c*c)){
 
     cout<<"trójkąt jest prostokątny"<<endl;
-    // 6 8 10 będzie :)
+    // 6 8 10 będzie :))
     
     } else {
 
