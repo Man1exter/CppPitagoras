@@ -26,11 +26,10 @@ cout<< "największa wartość to a: "<< a <<endl;
 cout<< "największa wartość to b: "<< b <<endl;
 
 } else {
+
 cout<< "największa wartość to c: "<< c <<endl;
+
 }
-
-
-
 
     return 0;
 }
