@@ -8,15 +8,12 @@ int main()
 
 int a,b,c,delta,x1,x2,elp;
 
-
-
    cout<<"podaj wartość a:"<< endl;
    cin>>a;
    cout<<"podaj wartość b:"<< endl;
    cin>>b;
    cout<<"podaj wartość c:"<< endl;
    cin>>c;
-
 
 delta = b*b-4*a*c;
 
@@ -33,7 +30,6 @@ if (delta > 0){
     elp = 2;
     // 2 10 8 a b c
 }
-
 
 switch (elp)
 {
