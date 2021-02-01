@@ -10,7 +10,6 @@ int main(){
     int pitagoras;
     //a2 + b2 = c2
     
-
     cout << "Podaj bok a: "<<endl;
     cin>> a;
 
@@ -19,7 +18,6 @@ int main(){
 
      cout << "Podaj bok c: "<<endl;
     cin>> c;
-
 
     if((a*a) + (b*b) == (c*c)){
 
@@ -31,8 +29,5 @@ int main(){
     cout<<"wartości nie mogą być mniejsze od 0"<<pitagoras<<endl;
 
     }
-
-
     return 0;
-
 }
