@@ -20,14 +20,10 @@ int main(){
     cin>> c;
 
     if((a*a) + (b*b) == (c*c)){
-
     cout<<"trójkąt jest prostokątny"<<endl;
     // 6 8 10 będzie :))
-    
     } else {
-
     cout<<"wartości nie mogą być mniejsze od 0"<<pitagoras<<endl;
-
     }
     return 0;
 }
